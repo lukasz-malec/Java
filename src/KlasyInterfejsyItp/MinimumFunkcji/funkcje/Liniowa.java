@@ -1,7 +1,5 @@
 package KlasyInterfejsyItp.MinimumFunkcji.funkcje;
 
-
-
 public class Liniowa extends Funkcje {
     // funkcja postacji y = ax +b
 
