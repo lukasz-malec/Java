@@ -1,4 +1,4 @@
-read me if you want to :)
+# read me if you want to :)
 
 NWD - program znajdujący największy wspólnydzielnik dwóch liczb podanych jako argumenty wywołania programu.
 
