@@ -47,10 +47,6 @@ public class Main {
                 in.next();
                 liczbaZdan++;
             }
-
-
-
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
