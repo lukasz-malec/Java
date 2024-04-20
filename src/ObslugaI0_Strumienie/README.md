@@ -1,4 +1,4 @@
-# read me if you want to :)
+# read me if you want to
 
 Counter -  program, który dla wskazanego pliku tekstowego zlicza ilość wystąpienia wszystkich znaków
 ('a' – 20 razy, 'b' – 2 razy, 'c' – 1 raz, itd.), ilość wystąpienia wyrazów (“java” - 4 razy,“informatyka” - raz),
