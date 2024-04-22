@@ -1,0 +1,2 @@
+Dodanie następujących metod do programu z zadania 2 :add(Value), sub(Value), mul(Value), div(Value), pow(Value), eq(Value),  lte(Value),gte(Value)
+neq(Value), boolean equals(Object other),  int hashCode()
