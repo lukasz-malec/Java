@@ -1,2 +1,2 @@
-Program liczący liczby zespolone typu double oraz int
+# Program liczący liczby zespolone typu double oraz int
 
