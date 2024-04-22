@@ -24,24 +24,24 @@ public class Main {
         int liczbaZdan = 0;
 
         try {
-            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input.txt")));
+            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input_file.txt")));
 
             Zliczanieliter(in, mapaZnaki);
 
             // Resetowanie skanera, bo przeczytał już  cały plik
-            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input.txt")));
+            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input_file.txt")));
             while (in.hasNextLine()) {
                 in.nextLine();
                 liczbaLinii++;
             }
 
             // Resetowanie skanera, bo przeczytał  już cały  plik
-            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input.txt")));
+            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input_file.txt")));
             mapaSłowa = ZliczanieSłow(in);
 
 
             // Resetowanie skanera, bo przeczytał  już cały  plik
-            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input.txt")));
+            in = new Scanner(new BufferedReader(new FileReader("src\\ObslugaI0_Strumienie\\Counter\\input_file.txt")));
             in.useDelimiter("\\.");
             while (in.hasNext()) {
                 in.next();
